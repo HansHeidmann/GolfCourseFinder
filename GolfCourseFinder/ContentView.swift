@@ -22,6 +22,7 @@ struct ContentView: View {
                         Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
                     }
                 }
+                //
                 .onDelete(perform: deleteItems)
             }
             .toolbar {
