@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6CFB5DE2DA878CB00148335 /* GolfCourseFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFB5DD2DA878CB00148335 /* GolfCourseFinderApp.swift */; };
+		E6CFB5E02DA878CB00148335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFB5DF2DA878CB00148335 /* ContentView.swift */; };
+		E6CFB5E22DA878CB00148335 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFB5E12DA878CB00148335 /* Item.swift */; };
+		E6CFB5E42DA878CC00148335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CFB5E32DA878CC00148335 /* Assets.xcassets */; };
+		E6CFB5E72DA878CC00148335 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CFB5E62DA878CC00148335 /* Preview Assets.xcassets */; };
+		E6CFB5F12DA878CC00148335 /* GolfCourseFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFB5F02DA878CC00148335 /* GolfCourseFinderTests.swift */; };
+		E6CFB5FB2DA878CC00148335 /* GolfCourseFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFB5FA2DA878CC00148335 /* GolfCourseFinderUITests.swift */; };
+		E6CFB5FD2DA878CD00148335 /* GolfCourseFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFB5FC2DA878CD00148335 /* GolfCourseFinderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6CFB5ED2DA878CC00148335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6CFB5D22DA878CB00148335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6CFB5D92DA878CB00148335;
+			remoteInfo = GolfCourseFinder;
+		};
+		E6CFB5F72DA878CC00148335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6CFB5D22DA878CB00148335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6CFB5D92DA878CB00148335;
+			remoteInfo = GolfCourseFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6CFB5DA2DA878CB00148335 /* GolfCourseFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfCourseFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CFB5DD2DA878CB00148335 /* GolfCourseFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfCourseFinderApp.swift; sourceTree = "<group>"; };
+		E6CFB5DF2DA878CB00148335 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E6CFB5E12DA878CB00148335 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E6CFB5E32DA878CC00148335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6CFB5E62DA878CC00148335 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6CFB5EC2DA878CC00148335 /* GolfCourseFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolfCourseFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CFB5F02DA878CC00148335 /* GolfCourseFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfCourseFinderTests.swift; sourceTree = "<group>"; };
+		E6CFB5F62DA878CC00148335 /* GolfCourseFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolfCourseFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CFB5FA2DA878CC00148335 /* GolfCourseFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfCourseFinderUITests.swift; sourceTree = "<group>"; };
+		E6CFB5FC2DA878CD00148335 /* GolfCourseFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfCourseFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6CFB5D72DA878CB00148335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CFB5E92DA878CC00148335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CFB5F32DA878CC00148335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6CFB5D12DA878CB00148335 = {
+			isa = PBXGroup;
+			children = (
+				E6CFB5DC2DA878CB00148335 /* GolfCourseFinder */,
+				E6CFB5EF2DA878CC00148335 /* GolfCourseFinderTests */,
+				E6CFB5F92DA878CC00148335 /* GolfCourseFinderUITests */,
+				E6CFB5DB2DA878CB00148335 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6CFB5DB2DA878CB00148335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6CFB5DA2DA878CB00148335 /* GolfCourseFinder.app */,
+				E6CFB5EC2DA878CC00148335 /* GolfCourseFinderTests.xctest */,
+				E6CFB5F62DA878CC00148335 /* GolfCourseFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6CFB5DC2DA878CB00148335 /* GolfCourseFinder */ = {
+			isa = PBXGroup;
+			children = (
+				E6CFB5DD2DA878CB00148335 /* GolfCourseFinderApp.swift */,
+				E6CFB5DF2DA878CB00148335 /* ContentView.swift */,
+				E6CFB5E12DA878CB00148335 /* Item.swift */,
+				E6CFB5E32DA878CC00148335 /* Assets.xcassets */,
+				E6CFB5E52DA878CC00148335 /* Preview Content */,
+			);
+			path = GolfCourseFinder;
+			sourceTree = "<group>";
+		};
+		E6CFB5E52DA878CC00148335 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E6CFB5E62DA878CC00148335 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E6CFB5EF2DA878CC00148335 /* GolfCourseFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6CFB5F02DA878CC00148335 /* GolfCourseFinderTests.swift */,
+			);
+			path = GolfCourseFinderTests;
+			sourceTree = "<group>";
+		};
+		E6CFB5F92DA878CC00148335 /* GolfCourseFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6CFB5FA2DA878CC00148335 /* GolfCourseFinderUITests.swift */,
+				E6CFB5FC2DA878CD00148335 /* GolfCourseFinderUITestsLaunchTests.swift */,
+			);
+			path = GolfCourseFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6CFB5D92DA878CB00148335 /* GolfCourseFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6CFB6002DA878CD00148335 /* Build configuration list for PBXNativeTarget "GolfCourseFinder" */;
+			buildPhases = (
+				E6CFB5D62DA878CB00148335 /* Sources */,
+				E6CFB5D72DA878CB00148335 /* Frameworks */,
+				E6CFB5D82DA878CB00148335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GolfCourseFinder;
+			productName = GolfCourseFinder;
+			productReference = E6CFB5DA2DA878CB00148335 /* GolfCourseFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6CFB5EB2DA878CC00148335 /* GolfCourseFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6CFB6032DA878CD00148335 /* Build configuration list for PBXNativeTarget "GolfCourseFinderTests" */;
+			buildPhases = (
+				E6CFB5E82DA878CC00148335 /* Sources */,
+				E6CFB5E92DA878CC00148335 /* Frameworks */,
+				E6CFB5EA2DA878CC00148335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6CFB5EE2DA878CC00148335 /* PBXTargetDependency */,
+			);
+			name = GolfCourseFinderTests;
+			productName = GolfCourseFinderTests;
+			productReference = E6CFB5EC2DA878CC00148335 /* GolfCourseFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6CFB5F52DA878CC00148335 /* GolfCourseFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6CFB6062DA878CD00148335 /* Build configuration list for PBXNativeTarget "GolfCourseFinderUITests" */;
+			buildPhases = (
+				E6CFB5F22DA878CC00148335 /* Sources */,
+				E6CFB5F32DA878CC00148335 /* Frameworks */,
+				E6CFB5F42DA878CC00148335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6CFB5F82DA878CC00148335 /* PBXTargetDependency */,
+			);
+			name = GolfCourseFinderUITests;
+			productName = GolfCourseFinderUITests;
+			productReference = E6CFB5F62DA878CC00148335 /* GolfCourseFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6CFB5D22DA878CB00148335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E6CFB5D92DA878CB00148335 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E6CFB5EB2DA878CC00148335 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E6CFB5D92DA878CB00148335;
+					};
+					E6CFB5F52DA878CC00148335 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E6CFB5D92DA878CB00148335;
+					};
+				};
+			};
+			buildConfigurationList = E6CFB5D52DA878CB00148335 /* Build configuration list for PBXProject "GolfCourseFinder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6CFB5D12DA878CB00148335;
+			productRefGroup = E6CFB5DB2DA878CB00148335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6CFB5D92DA878CB00148335 /* GolfCourseFinder */,
+				E6CFB5EB2DA878CC00148335 /* GolfCourseFinderTests */,
+				E6CFB5F52DA878CC00148335 /* GolfCourseFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6CFB5D82DA878CB00148335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CFB5E72DA878CC00148335 /* Preview Assets.xcassets in Resources */,
+				E6CFB5E42DA878CC00148335 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CFB5EA2DA878CC00148335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CFB5F42DA878CC00148335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6CFB5D62DA878CB00148335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CFB5E02DA878CB00148335 /* ContentView.swift in Sources */,
+				E6CFB5E22DA878CB00148335 /* Item.swift in Sources */,
+				E6CFB5DE2DA878CB00148335 /* GolfCourseFinderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CFB5E82DA878CC00148335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CFB5F12DA878CC00148335 /* GolfCourseFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CFB5F22DA878CC00148335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CFB5FB2DA878CC00148335 /* GolfCourseFinderUITests.swift in Sources */,
+				E6CFB5FD2DA878CD00148335 /* GolfCourseFinderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6CFB5EE2DA878CC00148335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6CFB5D92DA878CB00148335 /* GolfCourseFinder */;
+			targetProxy = E6CFB5ED2DA878CC00148335 /* PBXContainerItemProxy */;
+		};
+		E6CFB5F82DA878CC00148335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6CFB5D92DA878CB00148335 /* GolfCourseFinder */;
+			targetProxy = E6CFB5F72DA878CC00148335 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E6CFB5FE2DA878CD00148335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6CFB5FF2DA878CD00148335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6CFB6012DA878CD00148335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GolfCourseFinder/Preview Content\"";
+				DEVELOPMENT_TEAM = D2495MYV67;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bopito.GolfCourseFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6CFB6022DA878CD00148335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GolfCourseFinder/Preview Content\"";
+				DEVELOPMENT_TEAM = D2495MYV67;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bopito.GolfCourseFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6CFB6042DA878CD00148335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2495MYV67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bopito.GolfCourseFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolfCourseFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GolfCourseFinder";
+			};
+			name = Debug;
+		};
+		E6CFB6052DA878CD00148335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2495MYV67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bopito.GolfCourseFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolfCourseFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GolfCourseFinder";
+			};
+			name = Release;
+		};
+		E6CFB6072DA878CD00148335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2495MYV67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bopito.GolfCourseFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GolfCourseFinder;
+			};
+			name = Debug;
+		};
+		E6CFB6082DA878CD00148335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2495MYV67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bopito.GolfCourseFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GolfCourseFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6CFB5D52DA878CB00148335 /* Build configuration list for PBXProject "GolfCourseFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CFB5FE2DA878CD00148335 /* Debug */,
+				E6CFB5FF2DA878CD00148335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6CFB6002DA878CD00148335 /* Build configuration list for PBXNativeTarget "GolfCourseFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CFB6012DA878CD00148335 /* Debug */,
+				E6CFB6022DA878CD00148335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6CFB6032DA878CD00148335 /* Build configuration list for PBXNativeTarget "GolfCourseFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CFB6042DA878CD00148335 /* Debug */,
+				E6CFB6052DA878CD00148335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6CFB6062DA878CD00148335 /* Build configuration list for PBXNativeTarget "GolfCourseFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CFB6072DA878CD00148335 /* Debug */,
+				E6CFB6082DA878CD00148335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6CFB5D22DA878CB00148335 /* Project object */;
+}
