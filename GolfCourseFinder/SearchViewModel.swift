@@ -102,14 +102,12 @@ class SearchViewModel: ObservableObject {
             }
 
         } catch let urlError as URLError { // update error message to show network error description if caught
-            print("check urlerror")
             await MainActor.run {
                 self.results = []
                 self.errorMessage = "Network error: \(urlError.localizedDescription)"
             }
 
         } catch let decodingError as DecodingError { // update error message to show decoding issue error if caught
-            print("check decodign error")
             await MainActor.run {
                 self.results = []
                 self.errorMessage = "Failed to decode response. Please try again later."
