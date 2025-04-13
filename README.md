@@ -27,6 +27,6 @@ A SwiftUI-based iOS app that lets you search for golf courses using data from th
    request.setValue("Key YOUR_API_KEY", forHTTPHeaderField: "Authorization")
 6. **Run the app**
    - Select a simulator or connected device
-   - Press `Cmd + R` or click ▶️ to build and run
+   - Press `Cmd + R` or click ▶ to build and run
 
 ---
