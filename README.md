@@ -6,7 +6,7 @@ A SwiftUI-based iOS app that lets you search for golf courses using data from th
 ---
 
 ## Demo
-[Watch on YouTube](https://youtu.be/S6Pxat3eYSw))
+[Watch on YouTube](https://youtu.be/S6Pxat3eYSw)
 
 ## Features
 
