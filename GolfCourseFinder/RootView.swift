@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  GolfCourseFinder
 //
-//  Created by Hans Heidmann on 4/10/25.
+//  Created by Hans Heidmann on 4/12/25.
 //
 
 import SwiftUI
@@ -15,19 +15,20 @@ struct RootView: View {
     var body: some View {
         
         if hasLaunched {
-            
             SearchView()
-            
-        }
-        else {
-            
+        } else {
             WelcomeView(hasLaunched: $hasLaunched)
-            
         }
         
     }
     
 }
+
+
+
+
+
+
 
 #Preview {
     let container = try! ModelContainer(for: CourseModel.self, configurations: .init(isStoredInMemoryOnly: true))

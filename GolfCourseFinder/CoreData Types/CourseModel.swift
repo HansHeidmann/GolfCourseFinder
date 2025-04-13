@@ -2,7 +2,7 @@
 //  Item.swift
 //  GolfCourseFinder
 //
-//  Created by Hans Heidmann on 4/10/25.
+//  Created by Hans Heidmann on 4/12/25.
 //
 
 import Foundation

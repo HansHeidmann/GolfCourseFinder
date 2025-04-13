@@ -8,32 +8,36 @@
 import SwiftUI
 
 struct TeeSummaryView: View {
-    let tees: [Tee]
-    let label: String
+    let tees: [Tee] // state to hold array of [Tee] data
+    let label: String // visual label for this view
     
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
+            // if no data for this course:
             if tees.isEmpty {
-                Text("No \(label.lowercased()) data available.")
+                Text("No \(label.lowercased()) data available.") // let users know if no tee data for this course
                     .font(.headline)
                     .foregroundColor(.secondary)
                 
-                Spacer()
-            } else {
+                Spacer() // align text to .top
+            } 
+            // if there is data for this course:
+            else {
                 Text(label)
                     .font(.headline)
 
-                ScrollView(.horizontal, showsIndicators: false) {
+                ScrollView(.horizontal, showsIndicators: false) { // side scroll view
                     HStack(spacing: 12) {
-                        ForEach(tees, id: \.tee_name) { tee in
-                            VStack(alignment: .leading) {
+                        ForEach(tees, id: \.tee_name) { tee in // for each tee there is data about:
+                            VStack(alignment: .leading) { // build a section to display the data
                                 Text(tee.tee_name)
                                     .font(.title3)
                                     .bold()
-                                Text("Rating: \(tee.course_rating ?? 0, specifier: "%.1f")")
-                                Text("Slope: \(tee.slope_rating ?? 0)")
-                                Text("Yards: \(tee.total_yards ?? 0)")
-                                Text("Par: \(tee.par_total ?? 0)")
+                                Text("Rating: \(tee.course_rating != nil ? String(format: "%.1f", tee.course_rating!) : "Unknown")")
+                                Text("Slope: \(tee.slope_rating != nil ? "\(tee.slope_rating!)" : "Unknown")")
+                                Text("Yards: \(tee.total_yards != nil ? "\(tee.total_yards!)" : "Unknown")")
+                                Text("Par: \(tee.par_total != nil ? "\(tee.par_total!)" : "Unknown")")
+
                             }
                             .padding()
                             .background(Color.white.opacity(0.05))
@@ -44,7 +48,7 @@ struct TeeSummaryView: View {
                 }
             }
         }
-        .frame(maxWidth: .infinity, alignment: .leading)
+        .frame(maxWidth: .infinity, alignment: .leading) // align text left
     }
 }
 
