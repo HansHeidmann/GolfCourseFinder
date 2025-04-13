@@ -1,4 +1,4 @@
-# ⛳️ ⛳️ ⛳️
+# ⛳️ ⛳️ ⛳️ ⛳️ ⛳️ ⛳️ ⛳️ ⛳️ ⛳️ ⛳️ ⛳️ ⛳️ ⛳️ ⛳️ ⛳️ ⛳️ ⛳️ ⛳️
 # Golf Course Finder
 
 A SwiftUI-based iOS app that lets you search for golf courses using data from the [GolfCourseAPI](https://golfcourseapi.com/).
