@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E6CFB5DE2DA878CB00148335 /* GolfCourseFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFB5DD2DA878CB00148335 /* GolfCourseFinderApp.swift */; };
-		E6CFB5E02DA878CB00148335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFB5DF2DA878CB00148335 /* ContentView.swift */; };
+		E6CFB5E02DA878CB00148335 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFB5DF2DA878CB00148335 /* RootView.swift */; };
 		E6CFB5E22DA878CB00148335 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFB5E12DA878CB00148335 /* CourseModel.swift */; };
 		E6CFB5E42DA878CC00148335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CFB5E32DA878CC00148335 /* Assets.xcassets */; };
 		E6CFB5E72DA878CC00148335 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CFB5E62DA878CC00148335 /* Preview Assets.xcassets */; };
@@ -18,6 +18,9 @@
 		E6CFB60A2DA8815800148335 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFB6092DA8815800148335 /* SearchViewModel.swift */; };
 		E6CFB60C2DA8816D00148335 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFB60B2DA8816D00148335 /* SearchView.swift */; };
 		E6CFB60E2DA8A82800148335 /* CourseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFB60D2DA8A82800148335 /* CourseInfoView.swift */; };
+		E6CFB6112DAAE3C700148335 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFB6102DAAE3C700148335 /* WelcomeView.swift */; };
+		E6CFB6132DAB0E7700148335 /* TeeSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFB6122DAB0E7700148335 /* TeeSummaryView.swift */; };
+		E6CFB6152DAB0F0100148335 /* ResponseObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFB6142DAB0F0100148335 /* ResponseObjects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +43,7 @@
 /* Begin PBXFileReference section */
 		E6CFB5DA2DA878CB00148335 /* GolfCourseFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfCourseFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6CFB5DD2DA878CB00148335 /* GolfCourseFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfCourseFinderApp.swift; sourceTree = "<group>"; };
-		E6CFB5DF2DA878CB00148335 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E6CFB5DF2DA878CB00148335 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		E6CFB5E12DA878CB00148335 /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
 		E6CFB5E32DA878CC00148335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6CFB5E62DA878CC00148335 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -52,6 +55,9 @@
 		E6CFB6092DA8815800148335 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		E6CFB60B2DA8816D00148335 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		E6CFB60D2DA8A82800148335 /* CourseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseInfoView.swift; sourceTree = "<group>"; };
+		E6CFB6102DAAE3C700148335 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		E6CFB6122DAB0E7700148335 /* TeeSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeeSummaryView.swift; sourceTree = "<group>"; };
+		E6CFB6142DAB0F0100148335 /* ResponseObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseObjects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +109,13 @@
 			isa = PBXGroup;
 			children = (
 				E6CFB5DD2DA878CB00148335 /* GolfCourseFinderApp.swift */,
-				E6CFB5DF2DA878CB00148335 /* ContentView.swift */,
+				E6CFB5DF2DA878CB00148335 /* RootView.swift */,
+				E6CFB6102DAAE3C700148335 /* WelcomeView.swift */,
 				E6CFB60B2DA8816D00148335 /* SearchView.swift */,
 				E6CFB6092DA8815800148335 /* SearchViewModel.swift */,
 				E6CFB60D2DA8A82800148335 /* CourseInfoView.swift */,
-				E6CFB60F2DA8AF6200148335 /* Objects */,
+				E6CFB6122DAB0E7700148335 /* TeeSummaryView.swift */,
+				E6CFB60F2DA8AF6200148335 /* Types */,
 				E6CFB5E32DA878CC00148335 /* Assets.xcassets */,
 				E6CFB5E52DA878CC00148335 /* Preview Content */,
 			);
@@ -139,12 +147,13 @@
 			path = GolfCourseFinderUITests;
 			sourceTree = "<group>";
 		};
-		E6CFB60F2DA8AF6200148335 /* Objects */ = {
+		E6CFB60F2DA8AF6200148335 /* Types */ = {
 			isa = PBXGroup;
 			children = (
+				E6CFB6142DAB0F0100148335 /* ResponseObjects.swift */,
 				E6CFB5E12DA878CB00148335 /* CourseModel.swift */,
 			);
-			path = Objects;
+			path = Types;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,11 +287,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6CFB60C2DA8816D00148335 /* SearchView.swift in Sources */,
-				E6CFB5E02DA878CB00148335 /* ContentView.swift in Sources */,
+				E6CFB5E02DA878CB00148335 /* RootView.swift in Sources */,
 				E6CFB5E22DA878CB00148335 /* CourseModel.swift in Sources */,
 				E6CFB60E2DA8A82800148335 /* CourseInfoView.swift in Sources */,
 				E6CFB60A2DA8815800148335 /* SearchViewModel.swift in Sources */,
 				E6CFB5DE2DA878CB00148335 /* GolfCourseFinderApp.swift in Sources */,
+				E6CFB6152DAB0F0100148335 /* ResponseObjects.swift in Sources */,
+				E6CFB6132DAB0E7700148335 /* TeeSummaryView.swift in Sources */,
+				E6CFB6112DAAE3C700148335 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +461,8 @@
 				DEVELOPMENT_TEAM = D2495MYV67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Golf Course Finder";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -478,6 +492,8 @@
 				DEVELOPMENT_TEAM = D2495MYV67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Golf Course Finder";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -1,32 +1,22 @@
 import Foundation
 import Combine
+import SwiftData
 
-struct CourseSearchResponse: Decodable {
-    let courses: [Course]
-}
-
-struct Course: Identifiable, Decodable {
-    let id: Int
-    let club_name: String
-    let course_name: String
-    let location: Location
-}
-extension Course: Equatable {
-    static func == (lhs: Course, rhs: Course) -> Bool {
-        lhs.id == rhs.id
-    }
-}
-
-struct Location: Decodable {
-    let address: String?
-    let city: String?
-    let state: String?
-    let country: String?
-}
 
 class SearchViewModel: ObservableObject {
+  
+    private var context: ModelContext?
+    
+    func setContext(_ context: ModelContext) {
+        self.context = context
+        fetchRecentlyViewed()
+    }
     
     @Published var results: [Course] = []
+    
+    @Published var recentlyViewed: [Course] = []
+
+    
     
     @Published var searchText = "" {
         didSet {
@@ -82,5 +72,42 @@ class SearchViewModel: ObservableObject {
 
         await MainActor.run { self.isLoading = false }
     }
+    
+    
+    func fetchRecentlyViewed() {
+        guard let context else { return }
+
+        let descriptor = FetchDescriptor<CourseModel>(sortBy: [SortDescriptor(\.id, order: .reverse)])
+
+        do {
+            let fetched = try context.fetch(descriptor)
+            recentlyViewed = fetched.map { $0.asCourse }
+        } catch {
+            print("Failed to fetch recently viewed: \(error)")
+            recentlyViewed = []
+        }
+    }
+
+
+    
+    func saveToRecentlyViewed(course: Course) {
+        guard let context else { return }
+
+        if recentlyViewed.contains(where: { $0.id == course.id }) {
+            return
+        }
+
+        let model = CourseModel(from: course)
+        context.insert(model)
+
+        do {
+            try context.save()
+            fetchRecentlyViewed()
+        } catch {
+            print("Failed to save course: \(error)")
+        }
+    }
+
+
 
 }
