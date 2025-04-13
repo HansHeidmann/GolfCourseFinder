@@ -20,6 +20,7 @@ final class SearchViewModelTests: XCTestCase {
         viewModel = nil
         super.tearDown()
     }
+    
 
     func testInitialValues() {
         XCTAssertTrue(viewModel.results.isEmpty)
