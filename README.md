@@ -19,7 +19,7 @@ A SwiftUI-based iOS app that lets you search for golf courses using data from th
 1. **Clone the repository**
    ```bash
    git clone https://github.com/HansHeidmann/GolfCourseFinder.git
-2. **Open `GolfCourseFinder.xcodeproj` with Xcode**
+2. **Open 'GolfCourseFinder.xcodeproj' with Xcode**
 3. **Get an API Key** from [GolfCourseAPI](https://golfcourseapi.com/)
 4. **Insert your API Key**
    find this line in the only ViewModel:
@@ -27,6 +27,6 @@ A SwiftUI-based iOS app that lets you search for golf courses using data from th
    request.setValue("Key YOUR_API_KEY", forHTTPHeaderField: "Authorization")
 6. **Run the app**
    - Select a simulator or connected device
-   - Press `Cmd + R` or click ▶ to build and run
+   - Press 'Cmd + R' to build and run
 
 ---
