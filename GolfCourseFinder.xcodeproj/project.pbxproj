@@ -83,6 +83,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E6AD33C52DB05907005F4503 /* Search View */ = {
+			isa = PBXGroup;
+			children = (
+				E6CFB60B2DA8816D00148335 /* SearchView.swift */,
+				E6CFB6092DA8815800148335 /* SearchViewModel.swift */,
+			);
+			path = "Search View";
+			sourceTree = "<group>";
+		};
+		E6AD33C62DB05911005F4503 /* Welcome View */ = {
+			isa = PBXGroup;
+			children = (
+				E6CFB6102DAAE3C700148335 /* WelcomeView.swift */,
+			);
+			path = "Welcome View";
+			sourceTree = "<group>";
+		};
+		E6AD33C72DB05967005F4503 /* CourseInfo View */ = {
+			isa = PBXGroup;
+			children = (
+				E6CFB60D2DA8A82800148335 /* CourseInfoView.swift */,
+				E6CFB6122DAB0E7700148335 /* TeeSummaryView.swift */,
+			);
+			path = "CourseInfo View";
+			sourceTree = "<group>";
+		};
 		E6CFB5D12DA878CB00148335 = {
 			isa = PBXGroup;
 			children = (
@@ -109,11 +135,9 @@
 				E6CFB61A2DAC32E200148335 /* Info.plist */,
 				E6CFB5DD2DA878CB00148335 /* GolfCourseFinderApp.swift */,
 				E6CFB5DF2DA878CB00148335 /* RootView.swift */,
-				E6CFB6102DAAE3C700148335 /* WelcomeView.swift */,
-				E6CFB60B2DA8816D00148335 /* SearchView.swift */,
-				E6CFB6092DA8815800148335 /* SearchViewModel.swift */,
-				E6CFB60D2DA8A82800148335 /* CourseInfoView.swift */,
-				E6CFB6122DAB0E7700148335 /* TeeSummaryView.swift */,
+				E6AD33C62DB05911005F4503 /* Welcome View */,
+				E6AD33C52DB05907005F4503 /* Search View */,
+				E6AD33C72DB05967005F4503 /* CourseInfo View */,
 				E6CFB60F2DA8AF6200148335 /* Types */,
 				E6CFB6162DAC22E100148335 /* CoreData Types */,
 				E6CFB5E32DA878CC00148335 /* Assets.xcassets */,
